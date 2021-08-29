@@ -2,7 +2,7 @@ const TicTacToe = require('../src/tic-tac-toe.js');
 
 describe('TicTacToe', () => {
     describe('#getCurrentPlayerSymbol', () => {
-        it('should return currect player symbol', () => {
+        it('should return correct player symbol', () => {
             let game;
 
             game = new TicTacToe();
